@@ -1,0 +1,19 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejemplo template</title>
+    </head>
+
+    <body>
+        {% comment %} <h1>Prueba</h1>
+        <h2>Nombre: {{nombre}}</h2>
+        <h2>Apellido: {{apellido}}</h2>
+        <h2>Curso:{{curso}}</h2> {% endcomment %}
+
+        {% for marca in marcas %}
+            <tr>
+                <td> marca.nombre}</td>
+            </tr>
+        {% endfor %}
+    </body>
+</html>
